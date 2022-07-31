@@ -1,0 +1,164 @@
+*{
+    font-family: 'Poppins',sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+.main{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 60px;
+    background: #1966a6;
+    background-image: linear-gradient(0deg, #0d4297 0%, #052529 100%);
+}
+.main form{
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 500px;
+    border-radius: 5%;
+
+    background-color: #8996cf;
+    background-image: linear-gradient(0deg, #2fd8d6 0%, #97D9E1 100%);
+
+}
+.main form h3{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    color: #333;
+}
+.main form h3:hover{
+    color: rgb(223, 19, 19);
+    transform: translateX(10px);
+    transition: 0.5s;
+}
+.main form input,.main form select{
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 17px;
+    margin: 8px;
+    background: #eee;
+    border-radius: 5px;
+}
+.main form select option{
+    background: #fff;
+}
+.main form .form-btn{
+    background: #fbd0d9;
+    color: crimson;
+    text-transform: uppercase;
+    max-width: 40%;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 10%;
+}
+.main form .form-btn:hover{
+    background: crimson;
+    color: #fff;
+    transition: 0.5s;
+}
+.main form p{
+    margin-top: 10px;
+    font-size: 20px;
+    color: #333;
+}
+.main form p a{
+    color: crimson;
+}
+.main form .error-msg{
+    margin: 1px 0;
+    margin-left: 10px;
+    display: flex;
+    align-self: flex-start;
+    font: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    color: rgb(244, 9, 9);
+    border-radius: 5px;
+    font-size: 17px;
+    justify-content:left;
+}
+.main form input{
+    cursor: pointer;
+    border: 1px solid #eee;
+}
+.main form input:hover{
+    border: 1px solid black;
+}
+.regsucbody{
+    background-color: #FF3CAC;
+    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+    font-family: 'Anton', sans-serif;
+}
+.regsucdiv{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.regsuc{
+    color: #0407a8;
+}
+.regsuc:hover{
+    color: #fff;
+    transform: translateX(10px);
+    transition: 0.5s;
+    /* box-shadow: 5px 10px 10px #333; */
+    transform: scale(1.1);
+}
+@media only screen and (max-width: 400px){
+    .main form .form-btn{
+        font-size: 14px;
+        max-width: 50%;
+    }
+}
+
+
+.gender{
+    display: flex;
+    color: #0407a8;
+}
+.form-group{
+    margin-bottom: 15px;
+}
+label{
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.radio label{
+  min-height: 20px;
+  padding-left: 20px;
+  margin-bottom: 0;
+  font-weight: normal;
+  cursor: pointer;
+}
+label[for="gender"]{
+    margin-left: -45%;
+    padding-bottom: 10px;
+}
+.radio-inline{
+    margin: 0px 30px;
+    cursor: pointer;
+}
+.radio-inline:hover{
+    color: crimson;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+label[for="gender"]{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.gender-inline{
+    display: flex;
+    align-items: flex-start;
+}
